@@ -3,11 +3,11 @@ name: Deploy to Firebase Hosting
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
   FIREBASE_TOKEN: ${{secrets.FIREBASE_TOKEN}}
-  ALGOLIA_APP_ID: 05VYZFXKNM 
+  ALGOLIA_APP_ID: 70J79DW1HQ
   ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
   ALGOLIA_INDEX_NAME: content 
   ALGOLIA_INDEX_FILE: public/algolia.json
