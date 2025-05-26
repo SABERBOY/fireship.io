@@ -28,5 +28,4 @@ jobs:
           extended: true
       - run: npm ci
       - run: npm run build
-      - run: npm run algolia
       - run: npm run deploy
